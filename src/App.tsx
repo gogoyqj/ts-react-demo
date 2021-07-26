@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { NotAFC } from './Cp';
 
 function App() {
   return (
@@ -18,9 +19,15 @@ function App() {
         >
           Learn React
         </a>
+        <NotAFC />
       </header>
     </div>
   );
+}
+
+
+function a(): void {
+  return undefined;
 }
 
 export default App;

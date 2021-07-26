@@ -1,0 +1,1 @@
+export const getUserById = (id) => fetch(`/api/get/user/by/${id}`, { method: 'GET' });
